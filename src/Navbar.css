@@ -1,0 +1,35 @@
+.navbar{
+    z-index: 2;
+    object-fit: contain;
+    height: 50px;
+    padding-top: 30px;
+    position: fixed;
+    width: 100%;
+    justify-content:space-between;
+    display: flex;
+    transition: all ease-in 0.2s;
+}
+
+.nav-black{
+    background-color: black;
+}
+.logo{
+   fill: red;
+   margin-left: 2rem;
+}
+.nav-login{
+    background-color: red;
+    margin-right: 30px;
+    border-radius: 0.4rem;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.4s;
+    text-transform: uppercase;
+}
+.nav-login:hover{
+    transform: scale(1.1);
+}
+
